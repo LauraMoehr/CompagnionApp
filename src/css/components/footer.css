@@ -1,7 +1,7 @@
 footer {
   border-radius: 10px;
   background-color: var(--background);
-  box-shadow: var( --boxshadow-secondary);
+  box-shadow: var(--boxshadow-secondary);
   display: flex;
   justify-content: space-evenly;
   position: fixed;
@@ -13,7 +13,10 @@ footer {
   padding: 0.7rem 0 0.5rem 0;
 }
 
-.active {
-    fill: tomato;
+svg.not-active {
+  fill: #7589a2;
+}
 
+svg.active {
+  fill: #193251;
 }
