@@ -1,15 +1,16 @@
 header {
-    padding-bottom:  4rem;
-    background-image: url(/src/image/background_shape_1.svg);
-    background-repeat: no-repeat;
-    background-position: top;
+    padding:  1.5rem;
+    background-image: url(../../image/background_shape_1.svg), linear-gradient(to top, transparent 20px, var(--header) 20px);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size:  375px 81px, 100%;
 }
 
 h1 {
     color: var(--primary);
     text-align: center;
     line-height: 1.2rem;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1rem;
     margin: 0;
     padding-top: 0;
