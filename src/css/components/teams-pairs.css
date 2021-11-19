@@ -1,0 +1,45 @@
+.header-team {
+    margin-left: 10vw;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.largebox {
+    background-color: lightsteelblue;  /* ! */
+    margin-top: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+}
+.smallbox {
+    background-color: lightpink; /* ! */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+    position: relative;
+}
+.members {
+    margin: 0px;
+    text-align: center;
+    justify-items: center;
+    font-size: 24px;
+}
+.plus {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 147px;
+    margin-right: 147px;
+}
+.m1 {
+    border: var(--border-primary);
+    border-radius: 10px 10px 0 0;
+}
+.m5 {
+    border: var(--border-primary);
+    border-radius: 0 0 10px 10px;
+}
+.m2, .m3, .m4 {
+    border: var(--border-primary);
+}
+
