@@ -36,3 +36,11 @@ h1 {
   top: 27%;
   bottom: 10.42%;
 }
+
+.rating__block--content {
+  margin: 3.5rem;
+}
+.rating__block--grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
