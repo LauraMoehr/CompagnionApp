@@ -1,0 +1,7 @@
+.rating__block--content {
+  margin: 5rem;
+}
+.rating__block--grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
