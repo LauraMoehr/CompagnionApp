@@ -1,34 +1,33 @@
 :root {
-    --danger-strong: #FF5A36;
-    --danger-medium: #FF9C86;
-    --danger-light: #FFBDAF;
-    --danger-ultralight: #FFDED7;
-    --background: #ffffff;
-    --header: #F8F8F8;
-    --unselected-ratings: #E0E4E8;
+  --danger-strong: #ff5a36;
+  --danger-medium: #ff9c86;
+  --danger-light: #ffbdaf;
+  --danger-ultralight: #ffded7;
+  --background: #ffffff;
+  --header: #f8f8f8;
+  --unselected-ratings: #e0e4e8;
 
-    --primary: #193251;
-    --secondary: #193251;
+  --primary: #193251;
+  --secondary: #193251;
 
-    --border-primary: 1px solid #7589A2;
-    --border-secondary: 1px solid #E0E4E8;
+  --border-primary: 1px solid #7589a2;
+  --border-secondary: 1px solid #e0e4e8;
 
-    --boxshadow-primary:  0px 4px 10px rgba(255, 90, 54, 0.4);
-    --boxshadow-secondary: 0px 2px 11px rgba(25, 50, 81, 0.2);
+  --boxshadow-primary: 0px 4px 10px rgba(255, 90, 54, 0.4);
+  --boxshadow-secondary: 0px 2px 11px rgba(25, 50, 81, 0.2);
 }
 
-
-*, *::before, *::after {
-    box-sizing: border-box;
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
+  margin: 0;
+  min-height: 100vh;
 }
 
-
-button  {
-    border-radius: 4px;
-} 
+button {
+  border-radius: 4px;
+}
