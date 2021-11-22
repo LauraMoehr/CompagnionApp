@@ -102,7 +102,7 @@ button {
 
 /* btn energy.html */
 
-.energy__level-btn {
+.energy__level-btn { /*Gibt es die Klasse energy__level?*/
   display: flex;
   flex-direction: column;
   gap: 0.6rem;

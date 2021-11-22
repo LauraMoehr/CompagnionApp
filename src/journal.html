@@ -11,13 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../src/css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" /> <!--"src/" rausgenommen-->
 
     <title>Journal</title>
   </head>
+
+
   <body>
     <header>
-      <h1>Journal</h1>
+      <h1>JOURNAL</h1>
     </header>
     <main>
       <div class="rate__button">
@@ -312,7 +314,7 @@
           </div>
         </div>
         <h3>Motto:</h3>
-        <p>,,That's life in the city"</p>
+        <p>"That's life in the city"</p>
         <h3>Notes:</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
@@ -589,7 +591,7 @@
           </div>
         </div>
         <h3>Motto:</h3>
-        <p>,,One step at a time"</p>
+        <p>"One step at a time"</p>
         <h3>Notes:</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
@@ -873,8 +875,8 @@
           <textarea name="lizenz" cols="28" rows="5"></textarea>
         </form>
       </article>
-      <div class="rate__button">
-        <button class="rate__button--button">
+      <div class="journal-entry"> <!--Habe für flex aus 2 divs 1 gemacht+ Klasse rate__button entfernt-->
+        <button class="rate__button--button"> <!--TO DO unwichtig: Farbe/ border des buttons-->
           Cancel
           <svg
             class="rate__button--star"
@@ -894,9 +896,7 @@
             />
           </svg>
         </button>
-      </div>
-      <div class="rate__button">
-        <button class="rate__button--button">
+        <button class="rate__button--button"> <!--TO DO unwichtig: Symbol des buttons-->
           Save
           <svg
             class="rate__button--star"
@@ -919,7 +919,7 @@
       </div>
     </main>
     <footer class="footer-index">
-      <a href="/src/index.html" class="active">
+      <a href="/src/index.html">
         <svg
           class="not-active"
           width="24"

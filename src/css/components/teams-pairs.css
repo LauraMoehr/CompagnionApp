@@ -1,53 +1,66 @@
-.largebox-grid {
-  display: grid;
-  grid-template-rows: repeat(12, 58px);
+.large-flexbox {
+  display: flex;
+  flex-direction: column;
   margin: 0 30px 23px 30px;
 }
-.largebox__header {
+.large-flexbox__header {
   color: var(--primary);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
-  justify-self: start;
+  margin-bottom: 0;
+  padding-top: 42px; /*neu*/
 }
-.smallbox-overall-grid {
-  display: grid;
+.dashboard__header { /*neue Klasse*/
+  color: var(--primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 42px 30px 0 30px; 
+}
+
+
+
+/*.small-flexbox-overall { ist, denke ich, obsolet
+  display: flex;
   gap: 20px;
   grid-template-rows: repeat(5, 116px);
   margin: 33px 30px 22px 30px;
-  justify-content: center; /* damit alle Boxen mittig sind */
-}
-.smallbox-grid {
+  justify-content: center; damit alle Boxen mittig sind
+}*/
+.small-flexbox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center; ist, denke ich, obsolet
+  align-items: center;*/
+  margin: 20px 30px 20px 30px; /*müsste ganz oben eig. 33px und ganz unten 22px margin haben*/
   position: relative;
 }
 
-.smallbox-grid p {
+/*.smallbox-grid p { ist, denke ich, obsolet
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 3rem;
-}
+} */
 
-.smallbox__plus {
+.small-flexbox__plus {
   color: var(--primary);
-  height: 30px;
-  margin: 0px 147px 0 147px;
+  /* height: 30px; */
+  margin: 56px 147px 0 147px;
   position: absolute;
-  width: 21px;
+  /* width: 21px; */
 }
 .members {
   color: var(--secondary);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  /* height: 58px; */
   margin: 0px;
+  padding: 21px; /* anstelle von height: 58px; jetzt padding*/
   text-align: center;
   width: 315px;
 }

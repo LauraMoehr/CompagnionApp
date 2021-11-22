@@ -12,22 +12,21 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" /> <!--src/ rausgenommen-->
     <title>Dashboard</title>
   </head>
 
   <body>
     <header>
-      <h1>Dashboard</h1>
+      <h1>DASHBOARD</h1>
     </header>
 
     <main>
-      <section class="smallbox-overall-grid">
-        <h2>Your Code Buddy for Today:</h2>
-        <section class="smallbox-grid">
-          <p class="members m1">Align</p>
+        <h2 class="dashboard__header">Your Code Buddy for Today:</h2>
+        <section class="small-flexbox">
+          <p class="members m1">Align</p> <!--TO DO unwichtig: Dürfte eigentlich nach oben kein margin haben-->
           <svg
-            class="smallbox__plus"
+            class="small-flexbox__plus"
             width="21"
             height="21"
             viewBox="0 0 21 21"
@@ -41,15 +40,14 @@
           </svg>
           <p class="members m5">Block</p>
         </section>
-      </section>
 
-<section class="largebox-grid">
-  <h2>Your Current Team:</h2>
-  <p class="members m1">Focus</p>
-  <p class="members m2">Grid</p>
-  <p class="members m3">Hover</p>
-  <p class="members m4">Inline</p>
-  <p class="members m5">Justify</p>
+<section class="large-flexbox">
+  <h2 class="large-flexbox__header">Your Current Team:</h2> <!--neu-->
+  <p class="members m1">Align</p>
+  <p class="members m2">Block</p>
+  <p class="members m3">Center</p>
+  <p class="members m4">Decendent</p>
+  <p class="members m5">End</p>
 </section>
 <article class="rating__block--content">
   <h2>Yesterdays Journals</h2>
@@ -320,7 +318,7 @@
     </div>
   </div>
   <h3>Motto:</h3>
-  <p>,,That's life in the city"</p>
+  <p>"That's life in the city"</p> <!--Thema Anführungsstriche-->
   <h3>Notes:</h3>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
