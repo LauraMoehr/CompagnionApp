@@ -12,13 +12,13 @@
   margin-bottom: 0;
   padding-top: 42px;
 }
-.dashboard__header { 
+.dashboard__header {
   color: var(--primary);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
-  margin: 42px 30px 0 30px; 
+  margin: 42px 30px 0 30px;
 }
 .small-flexbox {
   display: flex;
@@ -29,6 +29,7 @@
 .small-flexbox__plus {
   color: var(--primary);
   margin: 56px 147px 0 147px;
+  z-index: 99;
   position: absolute;
 }
 .members {
