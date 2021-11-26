@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
-.journal-entry {  /*neu: siehe journal*/
+.journal-entry {
   display: flex;
   margin-bottom: 6rem;
   justify-content: space-around;
