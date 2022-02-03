@@ -1,2 +1,3 @@
 # Compagnion-App
 
+Group project in the middle of the bootcamp - learned to work with Figma, fetch content from an API and many more things...
